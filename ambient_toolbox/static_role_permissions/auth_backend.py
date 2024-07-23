@@ -9,7 +9,7 @@ class StaticRolePermissionBackend(ModelBackend):
     instead of pulling them from the database.
 
     It expects the user model to have a `role` attribute,
-    wich matches with the keys in the STATIC_ROLE_PERMISSIONS dict.
+    which matches with the keys in the STATIC_ROLE_PERMISSIONS dict.
 
     Example:
 
